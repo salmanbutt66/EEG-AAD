@@ -1,6 +1,6 @@
 import numpy as np
 
-BASE = "EEG-AAD_audio_only"
+BASE = "data"
 
 subjects = [1, 2, 3, 4, 5]
 

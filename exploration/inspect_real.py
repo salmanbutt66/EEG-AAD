@@ -1,7 +1,6 @@
 import numpy as np
 
-BASE = "EEG-AAD_audio_only"  # change this if your preprocessed/raw folders aren't in the current directory
-
+BASE = "data"  
 def inspect(label, data_path, label_path):
     eeg = np.load(data_path)
     lab = np.load(label_path)
